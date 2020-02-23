@@ -1,4 +1,5 @@
 {
   "domain": "XXXXX",
-  "clientId": "XXXXX"
+  "clientId": "XXXXX",
+  "audience": "YOUR_API_IDENTIFIER"
 }
