@@ -3,10 +3,8 @@ const express = require('express');
 const jwt = require('express-jwt');
 const jwksRsa = require('jwks-rsa');
 const authConfig = require('../auth_config.json');
-
 // Create a new Express app
 const app = express();
-
 // Define middleware that validates incoming bearer tokens
 // using JWKS from dev-r3p76k1q.eu.auth0.com
 const checkJwt = jwt({
